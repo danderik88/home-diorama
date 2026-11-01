@@ -33,6 +33,7 @@ under it is a real one.
 8. [Privacy](#8-privacy)
 9. [Mistakes you can skip](#9-mistakes-you-can-skip)
 10. [Talking to your AI](#10-talking-to-your-ai)
+11. [Credits](#credits)
 
 ---
 
@@ -65,6 +66,7 @@ there, one effect led to another.
 | *Optional:* a phone with LiDAR (iPhone Pro) and *3D Scanner App* | more precise measurements without a tape | free (USDZ export) | not needed: the plan is enough |
 | **Photos of every room** | furnishing the model like your home | — | from several angles, lights on and off |
 | **Models and textures from [Poly Haven](https://polyhaven.com)** | floors, wood, plants, objects | free (CC0) | nothing paid: whatever is missing, Blender builds from simple shapes |
+| **Cars, camper and forklift from [Sketchfab](https://sketchfab.com/search?features=downloadable&type=models)** | the vehicles in the garage | free (CC) | search for your model with the *Downloadable* filter and a Creative Commons licence, download it as glTF (`.glb`); the AI repaints it in your car's colours. CC BY means crediting the author (see [Credits](#credits)) |
 | **The card** (JavaScript in HA) | stacks the pictures and draws what moves | — | not published: this guide is the recipe your AI builds yours from |
 | **A tablet, the HA app and [kiosk-mode](https://github.com/NemesisRE/kiosk-mode)** (HACS) | the wall panel | — | any decent tablet; I use an iPad Air 4 and it's tested there |
 
@@ -410,6 +412,18 @@ Give it **precise instructions** and have it **show you pictures**, not code.
 
 > Add the floor [name]. Use the same camera as the house, framed on that floor, with the same coordinates at a height
 > of −X cm. Then add it to the card as a separate view, with the `go:` button to switch floors.
+
+## Credits
+
+The vehicles in the garage are free Sketchfab models, repainted in Blender:
+
+- ["2022 Audi Q5 S-Line"](https://sketchfab.com/3d-models/940956e2845e43878a112b2903ee3329) by **tonielpro520**, CC BY 4.0
+- ["2022 Seat Arona"](https://sketchfab.com/3d-models/340ea656a5784a3988bf26911bb58715) by **BloxBloger**, CC BY-NC 4.0
+- ["renault_twingo_gt"](https://sketchfab.com/3d-models/91f48fd2417b4c538d392e4ff50c9542) by **saidiishaq4**, CC BY 4.0
+- ["Fiat Ducato Camper"](https://sketchfab.com/3d-models/e42db0f16f36494bae0e2dc549155bab) by **niev**, CC BY 4.0
+- ["Forklift"](https://sketchfab.com/3d-models/73d21c990e634589b0c130777751be28) by **mohammad6511**, CC BY 4.0
+
+Floors, wood, plants and objects come from [Poly Haven](https://polyhaven.com) (CC0).
 
 ---
 

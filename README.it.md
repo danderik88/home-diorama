@@ -33,6 +33,7 @@ ogni passaggio. Il garage sotto, invece, esiste davvero.
 8. [Privacy](#8-privacy)
 9. [Errori che vi risparmio](#9-errori-che-vi-risparmio)
 10. [Come parlare con l'AI](#10-come-parlare-con-lai)
+11. [Crediti](#crediti)
 
 ---
 
@@ -66,6 +67,7 @@ effetto ha tirato l'altro.
 | *Facoltativo:* un telefono con LiDAR (iPhone Pro) e *3D Scanner App* | misure più precise senza metro | gratis (esportando in USDZ) | non serve: la pianta basta |
 | **Foto di ogni stanza** | arredare il modello com'è casa vostra | — | da più angolazioni, con le luci accese e spente |
 | **Modelli e texture di [Poly Haven](https://polyhaven.com)** | pavimenti, legno, piante, oggetti | gratis (CC0) | niente roba a pagamento: quello che manca, Blender lo costruisce con forme semplici |
+| **Auto, camper e muletto da [Sketchfab](https://sketchfab.com/search?features=downloadable&type=models)** | i mezzi nel garage | gratis (CC) | cercate il vostro modello con il filtro *Downloadable* e una licenza Creative Commons, scaricatelo in glTF (`.glb`); l'AI lo ridipinge con i colori della vostra auto. Con licenza CC BY va citato l'autore (vedi [Crediti](#crediti)) |
 | **La card** (JavaScript in HA) | sovrappone le immagini e disegna quello che si muove | — | non è pubblicata: questa guida è la ricetta con cui la vostra AI scrive la vostra |
 | **Un tablet, app di HA e [kiosk-mode](https://github.com/NemesisRE/kiosk-mode)** (da HACS) | il pannello a muro | — | va bene qualsiasi tablet decente; io uso un iPad Air 4 ed è testata lì |
 
@@ -414,6 +416,18 @@ Datele **istruzioni precise** e fatevi **mostrare immagini**, non codice.
 > Aggiungi il piano [nome]. Usa la stessa inquadratura della casa, spostata su quel piano, con le stesse coordinate e
 > un'altezza di −X cm. Poi aggiungilo alla card come vista separata, con il pulsante `go:` per passare da un piano
 > all'altro.
+
+## Crediti
+
+I mezzi nel garage sono modelli gratuiti di Sketchfab, ridipinti in Blender:
+
+- ["2022 Audi Q5 S-Line"](https://sketchfab.com/3d-models/940956e2845e43878a112b2903ee3329) di **tonielpro520**, CC BY 4.0
+- ["2022 Seat Arona"](https://sketchfab.com/3d-models/340ea656a5784a3988bf26911bb58715) di **BloxBloger**, CC BY-NC 4.0
+- ["renault_twingo_gt"](https://sketchfab.com/3d-models/91f48fd2417b4c538d392e4ff50c9542) di **saidiishaq4**, CC BY 4.0
+- ["Fiat Ducato Camper"](https://sketchfab.com/3d-models/e42db0f16f36494bae0e2dc549155bab) di **niev**, CC BY 4.0
+- ["Forklift"](https://sketchfab.com/3d-models/73d21c990e634589b0c130777751be28) di **mohammad6511**, CC BY 4.0
+
+Pavimenti, legno, piante e oggetti vengono da [Poly Haven](https://polyhaven.com) (CC0).
 
 ---
 
