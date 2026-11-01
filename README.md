@@ -48,7 +48,7 @@ moves: weather, birds, cats, the robot, cars.
 
 So it looks like an animated film, and on a 2020 iPad Air it runs at **60 frames per second**.
 
-The idea comes from [this post on r/homeassistant](https://www.reddit.com/r/homeassistant/comments/1wzc637/); from
+The idea comes from [this post by u/batubatu0 on r/homeassistant](https://www.reddit.com/r/homeassistant/comments/1wzc637/); from
 there, one effect led to another.
 
 ---

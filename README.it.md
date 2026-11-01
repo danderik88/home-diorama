@@ -49,7 +49,7 @@ sopra quello che si muove: meteo, uccelli, gatti, robot, auto.
 
 Così sembra un film d'animazione, e su un iPad Air del 2020 va a **60 fotogrammi al secondo**.
 
-L'idea viene da [questo post su r/homeassistant](https://www.reddit.com/r/homeassistant/comments/1wzc637/); da lì un
+L'idea viene da [questo post di u/batubatu0 su r/homeassistant](https://www.reddit.com/r/homeassistant/comments/1wzc637/); da lì un
 effetto ha tirato l'altro.
 
 ---
