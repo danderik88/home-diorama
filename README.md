@@ -61,7 +61,7 @@ there, one effect led to another.
 | **Home Assistant** | knowing what happens at home: lights, sensors, weather, who is in | — | any installation |
 | **A computer with a good graphics card** | running Blender | — | a Mac with Apple silicon or a PC with an NVIDIA card; a full set of pictures takes one to a few hours |
 | **[Blender](https://www.blender.org)** | building the house and rendering it | free | driven by scripts the AI writes; you never need to open it |
-| **An AI coding agent** | writes the scripts, builds the house, renders it, writes the card | subscription | Claude Code, Codex or Gemini CLI |
+| **An AI** | writes the scripts, builds the house, renders it, writes the card | free or subscription | with a subscription (Claude Code, Codex, Gemini CLI) the AI works on its own on your computer; the free chat versions of Claude, ChatGPT or Gemini will do too: they give you the scripts, you run them and send back the results. It takes much longer, but no subscription |
 | **A floor plan** | giving the AI the walls, doors and windows | — | an architect's plan, a drawing or even a sketch with measurements: that's all it takes |
 | *Optional:* a phone with LiDAR (iPhone Pro) and *3D Scanner App* | more precise measurements without a tape | free (USDZ export) | not needed: the plan is enough |
 | **Photos of every room** | furnishing the model like your home | — | from several angles, lights on and off |

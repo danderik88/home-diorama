@@ -62,7 +62,7 @@ effetto ha tirato l'altro.
 | **Home Assistant** | sapere cosa succede in casa: luci, sensori, meteo, chi c'è | — | va bene qualsiasi installazione |
 | **Un computer con una buona scheda grafica** | far girare Blender | — | un Mac con chip Apple o un PC con una NVIDIA; tutte le immagini richiedono da una a qualche ora |
 | **[Blender](https://www.blender.org)** | costruire la casa e fare le immagini | gratis | lo comandano gli script che scrive l'AI: non serve mai aprirlo |
-| **Un'AI che programma** | scrive gli script, costruisce la casa, prepara le immagini, scrive la card | abbonamento | Claude Code, Codex o Gemini CLI |
+| **Un'AI** | scrive gli script, costruisce la casa, prepara le immagini, scrive la card | gratis o abbonamento | con un abbonamento (Claude Code, Codex, Gemini CLI) l'AI lavora da sola sul vostro computer; bastano però anche le versioni gratuite di Claude, ChatGPT o Gemini in chat: vi danno gli script, li lanciate voi e le rimandate i risultati. Ci vuole molto più tempo, ma nessun abbonamento |
 | **Una pianta della casa** | dare all'AI muri, porte e finestre | — | quella del geometra, un disegno o anche uno schizzo con le misure: basta questo |
 | *Facoltativo:* un telefono con LiDAR (iPhone Pro) e *3D Scanner App* | misure più precise senza metro | gratis (esportando in USDZ) | non serve: la pianta basta |
 | **Foto di ogni stanza** | arredare il modello com'è casa vostra | — | da più angolazioni, con le luci accese e spente |
