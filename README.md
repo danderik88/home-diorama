@@ -34,6 +34,7 @@ under it is a real one.
 9. [Mistakes you can skip](#9-mistakes-you-can-skip)
 10. [Talking to your AI](#10-talking-to-your-ai)
 11. [Credits](#credits)
+12. [Support](#support)
 
 ---
 
@@ -424,6 +425,10 @@ The vehicles in the garage are free Sketchfab models, repainted in Blender:
 - ["Forklift"](https://sketchfab.com/3d-models/73d21c990e634589b0c130777751be28) by **mohammad6511**, CC BY 4.0
 
 Floors, wood, plants and objects come from [Poly Haven](https://polyhaven.com) (CC0).
+
+## Support
+
+If this got your flat moving on the wall, you can [buy me a coffee](https://paypal.me/merighidaniel).
 
 ---
 

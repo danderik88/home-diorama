@@ -34,6 +34,7 @@ ogni passaggio. Il garage sotto, invece, esiste davvero.
 9. [Errori che vi risparmio](#9-errori-che-vi-risparmio)
 10. [Come parlare con l'AI](#10-come-parlare-con-lai)
 11. [Crediti](#crediti)
+12. [Supporto](#supporto)
 
 ---
 
@@ -428,6 +429,10 @@ I mezzi nel garage sono modelli gratuiti di Sketchfab, ridipinti in Blender:
 - ["Forklift"](https://sketchfab.com/3d-models/73d21c990e634589b0c130777751be28) di **mohammad6511**, CC BY 4.0
 
 Pavimenti, legno, piante e oggetti vengono da [Poly Haven](https://polyhaven.com) (CC0).
+
+## Supporto
+
+Se la guida ha fatto prendere vita alla vostra casa sul muro, potete [offrirmi un caffè](https://paypal.me/merighidaniel).
 
 ---
 
