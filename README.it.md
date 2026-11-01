@@ -276,7 +276,7 @@ Fate tutti i piani con **la stessa inquadratura**: stessa inclinazione e stessa 
 e un po' più larga. Quando si cambia piano l'edificio resta fermo e cambia solo il piano tagliato. Usate anche le
 stesse coordinate in centimetri per tutti i piani, cambiando solo l'altezza (qui il garage sta a −600 cm).
 
-![Il garage di notte: il neon e un'auto che rientra](gif/garage.gif)
+![Il garage: due auto parcheggiate, la terza rientra e parcheggia accanto](gif/garage.gif)
 
 ---
 
@@ -305,7 +305,7 @@ effetto qui sotto è nato da un "e se…?".
 | 💡 **Le luci** | `light.*` | ogni luce illumina la sua stanza, con il suo colore | [GIF](gif/day.gif) |
 | 🍃 **Le foglie** | la velocità del vento | il bosco intorno a casa si muove con il vento | |
 | 💨 **L'aria** | clima, ventilatore, purificatore | particelle che escono dagli apparecchi nella direzione giusta | |
-| 🏭 **Il neon del garage** | il tramonto | si accende la sera e ogni tanto sfarfalla, come i neon vecchi | [GIF](gif/garage.gif) |
+| 🏭 **Il neon del garage** | il tramonto | si accende la sera e ogni tanto sfarfalla, come i neon vecchi | |
 | 🛢️ **Silo e batteria** | i sensori di livello | il silo del pellet e la batteria si riempiono e si svuotano nel disegno | |
 | 📊 **I riquadri in basso** | meteo, batteria, fotovoltaico, cancello | una fila di riquadri sopra la pianta | |
 

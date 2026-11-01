@@ -274,7 +274,7 @@ Render every floor with **the same camera**: same tilt, same turn, only framed l
 floors the building stays put and only the cut floor changes. Use the same centimetre coordinates for every floor too,
 with a different height (here the garage floor is at −600 cm).
 
-![The garage at night: the neon tube and a car coming home](gif/garage.gif)
+![The garage: two cars parked, the third comes home and parks beside them](gif/garage.gif)
 
 ---
 
@@ -303,7 +303,7 @@ below started as "what if…?".
 | 💡 **Lights** | `light.*` | each light fills its own room, in its own colour | [GIF](gif/day.gif) |
 | 🍃 **Leaves** | wind speed | the woods around the house stir with the wind | |
 | 💨 **Air** | AC, fan, purifier | particles out of the devices, the right way | |
-| 🏭 **The garage neon** | sunset | it comes on in the evening and flickers now and then, like an old tube | [GIF](gif/garage.gif) |
+| 🏭 **The garage neon** | sunset | it comes on in the evening and flickers now and then, like an old tube | |
 | 🛢️ **Silo and battery** | level sensors | the pellet silo and the battery fill and empty in the drawing | |
 | 📊 **The tiles at the bottom** | weather, battery, solar, gate | a row of tiles over the plan | |
 
