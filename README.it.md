@@ -13,7 +13,7 @@
 - le auto entrano ed escono dal garage;
 - i gatti girano per casa, il robot pulisce la stanza che sta pulendo davvero e la TV prende i colori del film.
 
-Sta appesa al muro su un iPad, in modalità kiosk.
+Sta appesa al muro su un tablet, in modalità kiosk. Va bene qualsiasi tablet: io uso un iPad Air 4 ed è lì che è stata provata.
 
 Questa guida spiega come è fatta e come farne una per **casa vostra**, un passo alla volta. La casa che vedete è
 **inventata**: l'ho costruita per questa guida esattamente come si costruisce una casa vera, così potete seguire
@@ -29,7 +29,7 @@ ogni passaggio. Il garage sotto, invece, esiste davvero.
 4. [Passo per passo](#4-passo-per-passo)
 5. [Più piani](#5-più-piani)
 6. [Gli effetti: largo alla fantasia](#6-gli-effetti-largo-alla-fantasia)
-7. [L'iPad a muro](#7-lipad-a-muro)
+7. [Il tablet a muro](#7-il-tablet-a-muro)
 8. [Privacy](#8-privacy)
 9. [Errori che vi risparmio](#9-errori-che-vi-risparmio)
 10. [Come parlare con l'AI](#10-come-parlare-con-lai)
@@ -67,7 +67,7 @@ effetto ha tirato l'altro.
 | **Foto di ogni stanza** | arredare il modello com'è casa vostra | — | da più angolazioni, con le luci accese e spente |
 | **Modelli e texture di [Poly Haven](https://polyhaven.com)** | pavimenti, legno, piante, oggetti | gratis (CC0) | niente roba a pagamento: quello che manca, Blender lo costruisce con forme semplici |
 | **La card** (JavaScript in HA) | sovrappone le immagini e disegna quello che si muove | — | non è pubblicata: questa guida è la ricetta con cui la vostra AI scrive la vostra |
-| **iPad, app di HA e [kiosk-mode](https://github.com/NemesisRE/kiosk-mode)** (da HACS) | il pannello a muro | — | va bene qualsiasi tablet decente |
+| **Un tablet, app di HA e [kiosk-mode](https://github.com/NemesisRE/kiosk-mode)** (da HACS) | il pannello a muro | — | va bene qualsiasi tablet decente; io uso un iPad Air 4 ed è testata lì |
 
 **A voi tocca** fare le foto, rispondere alle domande dell'AI ("la porta del bagno si apre verso destra o verso
 sinistra?") e soprattutto **guardare le immagini** e dire cosa non va. Modello, script e codice sono lavoro dell'AI.
@@ -323,7 +323,10 @@ effetto qui sotto è nato da un "e se…?".
 
 ---
 
-## 7. L'iPad a muro
+## 7. Il tablet a muro
+
+Qualsiasi tablet va bene. Io uso un iPad Air 4 (2020) con l'app di Home Assistant: è lì che la card è stata
+provata e misurata, quindi quando più sotto leggete "iPad" vale per il vostro tablet.
 
 | Cosa | Come |
 |---|---|

@@ -13,7 +13,7 @@ A dashboard that shows your home from above, drawn like an architect's scale mod
 - cars drive in and out of the garage;
 - the cats wander around, the robot vacuum cleans the room it is really cleaning, the TV glows with the colours of the film.
 
-It hangs on the wall on an iPad, in kiosk mode.
+It hangs on the wall on a tablet, in kiosk mode. Any tablet will do: I use an iPad Air 4, and that's where it's tested.
 
 This guide shows how it is made and how to make one for **your** home, step by step. The house you see here is
 **made up**: it was built for this guide exactly the way a real one is built, so you can follow along. The garage
@@ -29,7 +29,7 @@ under it is a real one.
 4. [Step by step](#4-step-by-step)
 5. [More than one floor](#5-more-than-one-floor)
 6. [Effects: let your imagination run](#6-effects-let-your-imagination-run)
-7. [The iPad on the wall](#7-the-ipad-on-the-wall)
+7. [The tablet on the wall](#7-the-tablet-on-the-wall)
 8. [Privacy](#8-privacy)
 9. [Mistakes you can skip](#9-mistakes-you-can-skip)
 10. [Talking to your AI](#10-talking-to-your-ai)
@@ -66,7 +66,7 @@ there, one effect led to another.
 | **Photos of every room** | furnishing the model like your home | — | from several angles, lights on and off |
 | **Models and textures from [Poly Haven](https://polyhaven.com)** | floors, wood, plants, objects | free (CC0) | nothing paid: whatever is missing, Blender builds from simple shapes |
 | **The card** (JavaScript in HA) | stacks the pictures and draws what moves | — | not published: this guide is the recipe your AI builds yours from |
-| **iPad, the HA app and [kiosk-mode](https://github.com/NemesisRE/kiosk-mode)** (HACS) | the wall panel | — | any decent tablet |
+| **A tablet, the HA app and [kiosk-mode](https://github.com/NemesisRE/kiosk-mode)** (HACS) | the wall panel | — | any decent tablet; I use an iPad Air 4 and it's tested there |
 
 **Your part** is taking the photos, answering the AI's questions ("does the bathroom door open to the left or to the
 right?") and above all **looking at the pictures** and saying what is wrong. Modelling, scripts and code are the
@@ -321,7 +321,10 @@ below started as "what if…?".
 
 ---
 
-## 7. The iPad on the wall
+## 7. The tablet on the wall
+
+Any tablet will do. I use an iPad Air 4 (2020) with the Home Assistant app: that's where the card was tested and
+measured, so where you read "iPad" below, think of your tablet.
 
 | What | How |
 |---|---|
