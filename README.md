@@ -61,7 +61,8 @@ there, one effect led to another.
 | **A computer with a good graphics card** | running Blender | — | a Mac with Apple silicon or a PC with an NVIDIA card; a full set of pictures takes one to a few hours |
 | **[Blender](https://www.blender.org)** | building the house and rendering it | free | driven by scripts the AI writes; you never need to open it |
 | **An AI coding agent** | writes the scripts, builds the house, renders it, writes the card | subscription | Claude Code, Codex or Gemini CLI |
-| **A phone with LiDAR** (iPhone Pro) and *3D Scanner App* | scanning the rooms for their measurements | free (USDZ export) | optional: an architect's plan or a sketch with measurements will do |
+| **A floor plan** | giving the AI the walls, doors and windows | — | an architect's plan, a drawing or even a sketch with measurements: that's all it takes |
+| *Optional:* a phone with LiDAR (iPhone Pro) and *3D Scanner App* | more precise measurements without a tape | free (USDZ export) | not needed: the plan is enough |
 | **Photos of every room** | furnishing the model like your home | — | from several angles, lights on and off |
 | **Models and textures from [Poly Haven](https://polyhaven.com)** | floors, wood, plants, objects | free (CC0) | nothing paid: whatever is missing, Blender builds from simple shapes |
 | **The card** (JavaScript in HA) | stacks the pictures and draws what moves | — | not published: this guide is the recipe your AI builds yours from |
@@ -78,8 +79,8 @@ AI's job.
 ```
  PHOTOS AND SIZES         THE HOUSE AS A FILE       BLENDER (at night, on your computer)     HOME ASSISTANT
  ────────────────         ───────────────────       ────────────────────────────────────     ──────────────
- LiDAR scan        ─┐     layout.json:              always the same camera                    /config/www/…
- plan or sketch     ├──►  rooms, walls,      ──►    ├─ day, ~90 sun positions          ──►     pictures and json
+ plan or sketch    ─┐     layout.json:              always the same camera                    /config/www/…
+ (LiDAR scan)       ├──►  rooms, walls,      ──►    ├─ day, ~90 sun positions          ──►     pictures and json
  room photos       ─┘     doors, windows,           ├─ night                                         │
                           furniture, lights         ├─ one picture per light                         ▼
                                                     ├─ open doors, closed shutters             the card reads
@@ -105,13 +106,13 @@ Everything starts from **a plain text file**, `layout.json`, that describes the 
 - the furniture;
 - the lights, in groups.
 
-Three ways to get the measurements, from the easiest:
+No special tool needed: give the AI a plan or a drawing with the walls. Three ways:
 
 | From | How | Accuracy |
 |---|---|---|
-| **LiDAR scan** (3D Scanner App, USDZ export) | walk around with the phone; a script slices the scan at the right height and finds the walls | about 2 cm |
-| **Architect's plan** (PDF, DWG) | give it to the AI, it turns it into `layout.json` | excellent |
+| **A plan or drawing with the walls** (PDF, DWG, image, a drawing app's file) | give it to the AI, it turns it into `layout.json` | excellent: the real house's walls came from a drawing like this |
 | **A hand sketch with measurements** | a photo of the sketch, the AI does the rest | enough to start |
+| *Optional:* **LiDAR scan** (3D Scanner App, USDZ export) | walk around with the phone; a script slices the scan at the right height and finds the walls | about 2 cm, handy where there's no plan (the real house's garage) |
 
 For the example house the plan was invented inside the outer walls of a real building, so the garage below and the
 yard around it still match:

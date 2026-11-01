@@ -62,7 +62,8 @@ effetto ha tirato l'altro.
 | **Un computer con una buona scheda grafica** | far girare Blender | — | un Mac con chip Apple o un PC con una NVIDIA; tutte le immagini richiedono da una a qualche ora |
 | **[Blender](https://www.blender.org)** | costruire la casa e fare le immagini | gratis | lo comandano gli script che scrive l'AI: non serve mai aprirlo |
 | **Un'AI che programma** | scrive gli script, costruisce la casa, prepara le immagini, scrive la card | abbonamento | Claude Code, Codex o Gemini CLI |
-| **Un telefono con LiDAR** (iPhone Pro) e l'app *3D Scanner App* | scansionare le stanze per avere le misure | gratis (esportando in USDZ) | non obbligatorio: basta la pianta del geometra o uno schizzo con le misure |
+| **Una pianta della casa** | dare all'AI muri, porte e finestre | — | quella del geometra, un disegno o anche uno schizzo con le misure: basta questo |
+| *Facoltativo:* un telefono con LiDAR (iPhone Pro) e *3D Scanner App* | misure più precise senza metro | gratis (esportando in USDZ) | non serve: la pianta basta |
 | **Foto di ogni stanza** | arredare il modello com'è casa vostra | — | da più angolazioni, con le luci accese e spente |
 | **Modelli e texture di [Poly Haven](https://polyhaven.com)** | pavimenti, legno, piante, oggetti | gratis (CC0) | niente roba a pagamento: quello che manca, Blender lo costruisce con forme semplici |
 | **La card** (JavaScript in HA) | sovrappone le immagini e disegna quello che si muove | — | non è pubblicata: questa guida è la ricetta con cui la vostra AI scrive la vostra |
@@ -78,8 +79,8 @@ sinistra?") e soprattutto **guardare le immagini** e dire cosa non va. Modello, 
 ```
  FOTO E MISURE            LA CASA IN UN FILE        BLENDER (di notte, sul vostro computer)   HOME ASSISTANT
  ─────────────            ──────────────────        ───────────────────────────────────────   ──────────────
- scansione LiDAR   ─┐     layout.json:              sempre la stessa inquadratura              /config/www/…
- pianta o schizzo   ├──►  stanze, muri,      ──►    ├─ giorno, ~90 posizioni del sole   ──►     immagini e json
+ pianta o schizzo  ─┐     layout.json:              sempre la stessa inquadratura              /config/www/…
+ (scansione LiDAR)  ├──►  stanze, muri,      ──►    ├─ giorno, ~90 posizioni del sole   ──►     immagini e json
  foto delle stanze ─┘     porte, finestre,          ├─ notte                                          │
                           mobili, luci              ├─ un'immagine per ogni luce                      ▼
                                                     ├─ porte aperte, tapparelle giù             la card legge gli
@@ -105,13 +106,13 @@ Si parte da **un semplice file di testo**, `layout.json`, che descrive la casa:
 - i mobili;
 - le luci, divise per gruppi.
 
-Le misure si possono prendere in tre modi, dal più comodo al più spartano:
+Non serve nessuno strumento speciale: basta dare all'AI una pianta o un disegno con i muri. Le strade sono tre:
 
 | Da dove | Come | Precisione |
 |---|---|---|
-| **Scansione LiDAR** (3D Scanner App, export USDZ) | si gira per casa col telefono; uno script taglia la scansione all'altezza giusta e trova i muri | 2 cm circa |
-| **Pianta del geometra** (PDF, DWG) | la si passa all'AI, che la trasforma in `layout.json` | ottima |
+| **Pianta o disegno con i muri** (PDF, DWG, immagine, file di un programma di disegno) | la si passa all'AI, che la trasforma in `layout.json` | ottima: i muri della casa vera sono venuti da un disegno così |
 | **Schizzo a mano con le misure** | una foto dello schizzo, al resto pensa l'AI | sufficiente per cominciare |
+| *Facoltativo:* **scansione LiDAR** (3D Scanner App, export USDZ) | si gira per casa col telefono; uno script taglia la scansione all'altezza giusta e trova i muri | 2 cm circa, utile dove non c'è una pianta (il garage della casa vera) |
 
 Per la casa di esempio la pianta è stata inventata dentro i muri esterni di un edificio vero, così il garage sotto e
 il cortile intorno combaciano ancora:
